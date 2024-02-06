@@ -6,12 +6,12 @@ export default {
   questions: [
     createNumericalQuestion({
       text: "post_index Total Cholesterol (TC) (mg/dl)",
-      range: { min: 0, max: 100, step: 0.1 },
+      range: { min: 0, max: 1000, step: 0.1 },
       unit: "(mg/dl)",
     }),
     createNumericalQuestion({
       text: "post_index Low-Density Lipoprotein-C (LDL-C) (mg/dl)",
-      range: { min: 0, max: 20, step: 0.1 },
+      range: { min: 0, max: 500, step: 0.1 },
       unit: "(mg/dl)",
     }),
     createNumericalQuestion({
